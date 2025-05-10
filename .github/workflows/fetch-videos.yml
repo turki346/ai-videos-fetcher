@@ -1,8 +1,8 @@
-name: AI Video Fetcher (Daily at 6PM Morocco Time)
+name: AI Video Fetcher (Daily at 8PM Morocco Time)
 
 on:
   schedule:
-    # تشغيل يوميًا في الساعة 17:00 UTC (التي توافق 18:00 بتوقيت المغرب في الصيف و18:00 بتوقيت المغرب في الشتاء)
+    # تشغيل يوميًا في الساعة 7:00 UTC (التي توافق 8:00 بتوقيت المغرب في الصيف و8:00 بتوقيت المغرب في الشتاء)
     - cron: '0 7 * * *'
   workflow_dispatch:
 
